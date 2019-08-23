@@ -299,8 +299,16 @@ function changeIconToopen() {
 }
 
 function openNav() {
-    $("#mySidebar").css('width', '25%');
-    $("#main").css('marginLeft', '25%');
+    let screenWidth = screen.width;
+    if(screenWidth < 500){
+        $("#mySidebar").css('width', '40%');
+        $("#main").css('marginLeft', '40%');
+    }
+    else{
+        $("#mySidebar").css('width', '25%');
+        $("#main").css('marginLeft', '25%');
+    }
+  
 }
 
 function closeNav() {
