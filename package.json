@@ -1,0 +1,19 @@
+{
+  "name": "chingu-project",
+  "version": "1.0.0",
+  "description": "mapbox api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallav-jain-au3/chingu-project.git"
+  },
+  "author": "Pallav Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pallav-jain-au3/chingu-project/issues"
+  },
+  "homepage": "https://github.com/pallav-jain-au3/chingu-project#readme"
+}
