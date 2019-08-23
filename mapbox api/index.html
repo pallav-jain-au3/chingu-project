@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Monuments in Delhi</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id='map'></div>
+    <div id="mySidebar" class="sidebar">
+        <input id='filter-input' type='text' name='filter' placeholder='Filter by name' />
+        <ul class="suggestions"></ul>
+    </div>
+    <div id="main">
+        <button class="openbtn" onclick="openOrCloseSideBar()"><i id="arrowIcon"
+                class="fas fa-angle-double-right"></i></button>
+    </div>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
