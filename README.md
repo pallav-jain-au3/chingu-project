@@ -11,7 +11,7 @@ This app was created for the Chingu Voyagge 11 pre-work. It pulls data from the
 
 - The monuments of delhi are displayed in the map at their respective geolocation.
 
-- Clicking on the Geolocation coordinates launches popup which shows the complete address of the monument and on clicking pop up it open wikipedia page related to that monument..
+- Clicking on the Geolocation coordinates launches popup which shows the complete address of the monument and on clicking pop up it open wikipedia page of that monument..
 
 - The chart is filterable by name based on the current data set .
 
@@ -22,7 +22,7 @@ This app was created for the Chingu Voyagge 11 pre-work. It pulls data from the
 
 ## Tech Used / Dependencies
 
-- HTML5  CSS3 ,Javascript ,Jquery and Bootsrap are used for front-end.
+- HTML5  CSS3, Javascript, Jquery and Bootsrap are used for front-end.
 
 - Node.js for backend.
 
